@@ -94,6 +94,7 @@ body{
   border-radius: 15px;
   height: 40vh;
   box-shadow: 0 0 10px 5px black;
+  display: block;
 }
 .hero_scroll_img:hover{
   box-shadow: 0 0 10px 10px black;

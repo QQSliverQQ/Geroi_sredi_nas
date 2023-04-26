@@ -25,6 +25,7 @@
           </div>
         </header>
 
+
         <main id="main">
           <div class="container">
             <!-- Менюшка с войнами -->
@@ -463,16 +464,37 @@
               <p style="font-size: 200%; text-align: center;"><b>Специальная военная операция на Украине(2022-н.в.)</b></p><br>
             </div>
 
-            <!-- Меню с героями -->
+            <!-- Меню с героями и блоки к ним-->
             <p style="font-size: 200%; text-align: center; margin-top: 50px;"><b>Герои школы 24</b></p><br>
-            <div>
-              <p class="wars_header" style="margin-top: 0;"><b>Афганская война</b></p><br>
+
+            <div class="scroll_element">
               <div align="center" class="hero_scroll_lipatov">
-                <img id="hero_scroll_img_lipatov" class="hero_scroll_img" src="img/lipatov.jpg" alt="Липатов Вячеслав Юрьевич" onclick="hero_scroll_img_click(this)">
+                <a href="#lipatov_yakor"><img id="hero_scroll_img_lipatov" class="hero_scroll_img" src="img/lipatov.jpg" alt="Липатов Вячеслав Юрьевич"></a>
                 <p>Липатов Вячеслав Юрьевич</p>
               </div>
+              <div align="center" class="hero_scroll_demishev">
+                <a href="#demishev_yakor"><img id="hero_scroll_img_demishev" class="hero_scroll_img" src="img/demishev.jpg" alt="Дёмышев Сергей Евгеньевич"></a>
+                <p>Дёмышев Сергей Евгеньевич</p>
+              </div>
+              <div align="center" class="hero_scroll_zazdravnih">
+                <a href="#zazdravnih_yakor"><img id="hero_scroll_img_zazdravnih" class="hero_scroll_img" src="img/zazdravnih.jpg" alt="Заздравных Александр"></a>
+                <p>Заздравных Александр</p>
+              </div>
+              <div align="center" class="hero_scroll_malgin">
+                <a href="#malgin_yakor"><img id="hero_scroll_img_malgin" class="hero_scroll_img" src="img/malgin.jpg" alt="Мальгин Александр"></a>
+                <p>Мальгин Александр</p>
+              </div>
+              <div align="center" class="hero_scroll_plasynov">
+                <a href="#plasynov_yakor"><img id="hero_scroll_img_plasynov" class="hero_scroll_img" src="img/plasynov.jpg" alt="Плясунов Руслан Анварович"></a>
+                <p>Плясунов Руслан Анварович</p>
+              </div>
+            </div>
+
+            <div>
+              <p class="wars_header" style="margin-top: 50px;"><b>Афганская война</b></p><br>
               <div id="hero_lipatov" class="hero_div">
                 <div style="display: flex;">
+                  <a name="lipatov_yakor"></a>
                   <img class="hero_div_img" src="img/lipatov.jpg" alt="">
                   <div>
                     <p class="hero_div_header"><b>Липатов Вячеслав Юрьевич</b></p><br>
@@ -508,12 +530,9 @@
 
             <div>
               <p class="wars_header"><b>Первая Чеченская война</b></p><br>
-              <div align="center" class="hero_scroll_demishev">
-                <img id="hero_scroll_img_demishev" class="hero_scroll_img" src="img/demishev.jpg" alt="Дёмышев Сергей Евгеньевич" onclick="hero_scroll_img_click(this)">
-                <p>Дёмышев Сергей Евгеньевич</p>
-              </div>
               <div id="hero_demishev" class="hero_div">
                 <div style="display: flex;">
+                  <a name="demishev_yakor"></a>
                   <img class="hero_div_img" src="img/demishev.jpg" alt="">
 
                   <div>
@@ -544,12 +563,9 @@
 
             <div>
               <p class="wars_header"><b>Вторая Чеченская война</b></p><br>
-              <div align="center" class="hero_scroll_zazdravnih">
-                <img id="hero_scroll_img_zazdravnih" class="hero_scroll_img" src="img/zazdravnih.jpg" alt="Заздравных Александр" onclick="hero_scroll_img_click(this)">
-                <p>Заздравных Александр</p>
-              </div>
               <div id="hero_zazdravnih" class="hero_div">
                 <div style="display: flex;">
+                  <a name="zazdravnih_yakor"></a>
                   <img class="hero_div_img" src="img/zazdravnih.jpg" alt="">
                   <div>
                     <p class="hero_div_header"><b>Заздравных Александр</b></p><br>
@@ -570,13 +586,9 @@
                   <p>— Если он захочет служить, то я не стану препятствовать, — говорит Игорь. — Мне важно, чтобы он вырос человеком. Этого же от меня хотел и мой отец.</p><br>
                 </div>
               </div>
-
-              <div align="center" class="hero_scroll_malgin">
-                <img id="hero_scroll_img_malgin" class="hero_scroll_img" src="img/malgin.jpg" alt="Мальгин Александр" onclick="hero_scroll_img_click(this)">
-                <p>Мальгин Александр</p>
-              </div>
               <div id="hero_malgin" class="hero_div">
                 <div style="display: flex;">
+                  <a name="malgin_yakor"></a>
                   <img class="hero_div_img" src="img/malgin.jpg" alt="">
                   <div>
                     <p class="hero_div_header"><b>Мальгин Александр</b></p><br>
@@ -594,12 +606,9 @@
 
             <div>
               <p class="wars_header"><b>Специальная военная операция на Украине</b></p><br>
-              <div align="center" class="hero_scroll_plasynov">
-                <img id="hero_scroll_img_plasynov" class="hero_scroll_img" src="img/plasynov.jpg" alt="Плясунов Руслан Анварович" onclick="hero_scroll_img_click(this)">
-                <p>Плясунов Руслан Анварович</p>
-              </div>
               <div id="hero_plasynov" class="hero_div">
                 <div style="display: flex;">
+                  <a name="plasynov_yakor"></a>
                   <img class="hero_div_img" src="img/lipatov.jpg" alt="">
                   <div>
                     <p class="hero_div_header"><b>Плясунов Руслан Анварович</b></p><br>
