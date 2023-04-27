@@ -73,7 +73,7 @@ body{
 .wars_scroll_img:hover{
   box-shadow: 0 0 10px 10px black;
 }
-.wars_scroll_text{
+.scroll_text{
   font-size: calc(var(--index));
 }
 .wars_div{
@@ -148,6 +148,7 @@ body{
 /* Оптимизация под тапки */
 @media screen and (max-width: 768px){
   .container{
-    padding: 0 0;
+    padding: 0;
   }
+
 }
