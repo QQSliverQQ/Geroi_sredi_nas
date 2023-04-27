@@ -18,6 +18,7 @@
   font-family: outfit-a;
   src: url(../fonts/outfit-regular.woff2);
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: arial;
 }
@@ -72,8 +73,11 @@ body{
 .wars_scroll_img:hover{
   box-shadow: 0 0 10px 10px black;
 }
+.wars_scroll_text{
+  font-size: calc(var(--index));
+}
 .wars_div{
-  font-size: calc(var(--index)-5)
+  font-size: calc(var(--index))
   border: none;
   padding: 10px;
   border-radius: 8px;
@@ -100,7 +104,7 @@ body{
   box-shadow: 0 0 10px 10px black;
 }
 .hero_div{
-  font-size: calc(var(--index)-5)
+  font-size: calc(var(--index))
   border: none;
   padding: 10px;
   border-radius: 8px;
@@ -139,4 +143,11 @@ body{
   border-radius: 10px;
   box-shadow: 0 0 20px 2px black;
   margin-bottom: 15px;
+}
+
+/* Оптимизация под тапки */
+@media screen and (max-width: 768px){
+  .container{
+    padding: 0 0;
+  }
 }
