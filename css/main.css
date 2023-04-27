@@ -146,9 +146,23 @@ body{
 }
 
 /* Оптимизация под тапки */
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 1200px){
   .container{
     padding: 0;
   }
+}
+
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 320px){
 
 }
