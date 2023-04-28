@@ -155,10 +155,6 @@ body{
   .container{
     padding: 0;
   }
-
-}
-
-@media only screen and (max-width: 992px){
   .main-header{
     height: 50vh;
   }
@@ -236,6 +232,10 @@ body{
     text-align: center;
     margin-top: 50px;
   }
+}
+
+@media only screen and (max-width: 992px){
+
 }
 
 @media only screen and (max-width: 768px){
