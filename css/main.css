@@ -172,7 +172,7 @@ body{
     font-size: calc(var(--index)*3);
     position: absolute;
     left: 15vw;
-    top: 5vh;
+    top: 0vh;
   }
   .wars_scroll_img{
     margin-top: 20px;
