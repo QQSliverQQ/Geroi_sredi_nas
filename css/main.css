@@ -149,6 +149,9 @@ body{
   box-shadow: 0 0 20px 2px black;
   margin-bottom: 15px;
 }
+.lister{
+  margin-left: 20px;
+}
 
 /* Оптимизация под тапки */
 @media only screen and (max-width: 1200px){
@@ -231,6 +234,9 @@ body{
     font-size: 650%;
     text-align: center;
     margin-top: 50px;
+  }
+  .lister{
+    margin-left: 40px;
   }
 }
 
