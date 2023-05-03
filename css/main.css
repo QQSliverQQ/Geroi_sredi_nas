@@ -152,6 +152,15 @@ body{
 .lister{
   margin-left: 20px;
 }
+#end{
+  font-size: calc(var(--index)*3)
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 5px black;
+  display: block;
+  background-color: gray;
+}
 
 /* Оптимизация под тапки */
 @media only screen and (max-width: 1200px){

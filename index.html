@@ -28,7 +28,33 @@
 
         <main id="main">
           <div class="container">
+            <br>
+            <p id="geroi_sh24" style="margin-top: 0;"><b>Герои школы 24</b></p><br>
+            <div class="scroll_element">
+              <div align="center" class="hero_scroll_lipatov">
+                <img id="hero_scroll_img_lipatov" class="hero_scroll_img" src="img/lipatov.jpg" alt="Липатов Вячеслав Юрьевич"  onmousedown="hero_scroll_toggle(this)">
+                <p class="scroll_text">Липатов Вячеслав Юрьевич</p>
+              </div>
+              <div align="center" class="hero_scroll_demishev">
+                <img id="hero_scroll_img_demishev" class="hero_scroll_img" src="img/demishev.jpg" alt="Дёмышев Сергей Евгеньевич"  onmousedown="hero_scroll_toggle(this)">
+                <p class="scroll_text">Дёмышев Сергей Евгеньевич</p>
+              </div>
+              <div align="center" class="hero_scroll_zazdravnih">
+                <img id="hero_scroll_img_zazdravnih" class="hero_scroll_img" src="img/zazdravnih.jpg" alt="Заздравных Александр Викторович"  onmousedown="hero_scroll_toggle(this)">
+                <p class="scroll_text">Заздравных Александр Викторович</p>
+              </div>
+              <div align="center" class="hero_scroll_malgin">
+                <img id="hero_scroll_img_malgin" class="hero_scroll_img" src="img/malgin.jpg" alt="Мальгин Александр"  onmousedown="hero_scroll_toggle(this)">
+              <p class="scroll_text">Мальгин Александр Борисович</p>
+              </div>
+              <div align="center" class="hero_scroll_plasynov">
+                <img id="hero_scroll_img_plasynov" class="hero_scroll_img" src="img/plasynov.jpg" alt="Плясунов Руслан Анварович"  onmousedown="hero_scroll_toggle(this)">
+                <p class="scroll_text">Плясунов Руслан Анварович</p>
+              </div>
+            </div>
+
             <!-- Менюшка с войнами -->
+            <p id="geroi_sh24"><b>Войны</b></p><br>
             <div class="scroll_element">
               <div class="wars_scroll_afgan">
                 <img id="wars_scroll_img_afgan" class="wars_scroll_img" src="img/afgan.jpg" alt="Афганская война" onclick="wars_scroll_img_click(this)">
@@ -509,31 +535,10 @@
             <!-- Меню с героями и блоки к ним-->
             <p id="geroi_sh24"><b>Герои школы 24</b></p><br>
 
-            <div class="scroll_element">
-              <div align="center" class="hero_scroll_lipatov">
-                <img id="hero_scroll_img_lipatov" class="hero_scroll_img" src="img/lipatov.jpg" alt="Липатов Вячеслав Юрьевич"  onmousedown="hero_scroll_toggle(this)">
-                <p class="scroll_text">Липатов Вячеслав Юрьевич</p>
-              </div>
-              <div align="center" class="hero_scroll_demishev">
-                <img id="hero_scroll_img_demishev" class="hero_scroll_img" src="img/demishev.jpg" alt="Дёмышев Сергей Евгеньевич"  onmousedown="hero_scroll_toggle(this)">
-                <p class="scroll_text">Дёмышев Сергей Евгеньевич</p>
-              </div>
-              <div align="center" class="hero_scroll_zazdravnih">
-                <img id="hero_scroll_img_zazdravnih" class="hero_scroll_img" src="img/zazdravnih.jpg" alt="Заздравных Александр Викторович"  onmousedown="hero_scroll_toggle(this)">
-                <p class="scroll_text">Заздравных Александр Викторович</p>
-              </div>
-              <div align="center" class="hero_scroll_malgin">
-                <img id="hero_scroll_img_malgin" class="hero_scroll_img" src="img/malgin.jpg" alt="Мальгин Александр"  onmousedown="hero_scroll_toggle(this)">
-              <p class="scroll_text">Мальгин Александр Борисович</p>
-              </div>
-              <div align="center" class="hero_scroll_plasynov">
-                <img id="hero_scroll_img_plasynov" class="hero_scroll_img" src="img/plasynov.jpg" alt="Плясунов Руслан Анварович"  onmousedown="hero_scroll_toggle(this)">
-                <p class="scroll_text">Плясунов Руслан Анварович</p>
-              </div>
-            </div>
+
 
             <div>
-              <p class="wars_header"><b>Афганская война</b></p><br>
+              <p class="wars_header" style="margin-top:0;"><b>Афганская война</b></p><br>
               <div id="hero_lipatov" class="hero_div">
                 <div style="display: flex;">
                   <a name="lipatov_yakor"></a>
@@ -648,7 +653,7 @@
 
             <div>
               <p class="wars_header"><b>Специальная военная операция на Украине</b></p><br>
-              <div id="hero_plasynov" class="hero_div">
+              <div style="margin-bottom: 50px;" id="hero_plasynov" class="hero_div">
                 <div style="display: flex;">
                   <a name="plasynov_yakor"></a>
                   <img class="hero_div_img" src="img/plasynov.jpg" alt="">
@@ -677,10 +682,11 @@
                 </div>
               </div>
             </div>
+
+          </div>
         </main>
 
         <!-- Конец основного кода -->
-      </div>
     </div>
   </body>
 </html>
