@@ -8,6 +8,7 @@ var hero_demishev = document.getElementById('hero_demishev');
 var hero_zazdravnih = document.getElementById('hero_zazdravnih');
 var hero_malgin = document.getElementById('hero_malgin');
 var hero_plasynov = document.getElementById('hero_plasynov');
+var hero_soroka = document.getElementById('hero_soroka');
 let smoother = ScrollSmoother.create({
   wrapper: '.wrapper',
   content: '.content',
@@ -22,5 +23,6 @@ function hero_scroll_toggle(el){
     case "hero_scroll_img_zazdravnih": smoother.scrollTo(hero_zazdravnih, true); break;
     case "hero_scroll_img_malgin": smoother.scrollTo(hero_malgin, true); break;
     case "hero_scroll_img_plasynov": smoother.scrollTo(hero_plasynov, true); break;
+    case "hero_scroll_img_soroka": smoother.scrollTo(hero_soroka, true); break;
   }
 }
